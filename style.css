@@ -1,0 +1,90 @@
+body {
+	background-color: #bcf4f9;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.urls {
+	display: flex;
+	font-size: 12px;
+	font-family: "Montserrat", sans-serif;
+	margin: 2rem auto 50px auto;
+	letter-spacing: 3px;
+	cursor: pointer;
+}
+.urlmain {
+	color: #1a5986;
+	padding: 0 2rem;
+	transition: color 0.25s;
+	letter-spacing: 3px;
+	cursor: pointer;
+}
+.build {
+	color: #1a5986;
+	padding: 0 2rem;
+	transition: color 0.25s;
+}
+.miku {
+	color: #1a5986;
+	padding: 0 2rem;
+	transition: color 0.25s;
+}
+.card-container {
+	width: 500px;
+	height: 750px;
+	display: flex;
+	align-items: center;
+	padding: 2rem;
+	flex-direction: column;
+	border-radius: 25px;
+	background-color: white;
+	box-shadow: 0px 4px 4px rgb(0 0 0 / 30%);
+	margin-bottom: 2rem;
+}
+.nickname {
+	font-size: 20px;
+	font-family: "Montserrat" sans-serif;
+	letter-spacing: 5px;
+	color: #a3a3c2;
+}
+.avatar {
+	width: 35%;
+	border-radius: 45%;
+}
+.description {
+	font-size: 14px;
+	font-family: "Quicksand" sans-serif;
+	color: #a3a3c2;
+}
+.socials {
+	margin-bottom: 2rem;
+	margin: 0;
+	padding: 0;
+}
+.social {
+	padding: 0.75rem 4.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 999px;
+	margin-bottom: 1rem;
+	background-color: #a3a3c2;
+	color: #e0e0eb;
+	text-decoration: none;
+	letter-spacing: 5px;
+	font-family: "Montserrat" sans-serif;
+	transition: background-color 0.25s;
+}
+.decoration {
+	font-size: 20px;
+	color: #a3a3c2;
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	
+
+
+
+}
